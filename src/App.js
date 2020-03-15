@@ -1,7 +1,10 @@
 import React from 'react';
+import './App.css';
+
+import image from './assets/image.jpg';
 
 function App() {
-  return <h1>Hello GoStack</h1>;
+  return <img src={image} />;
 }
 
 export default App;
